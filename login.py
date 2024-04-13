@@ -25,6 +25,8 @@ if st.button("Login"):
         
     else:
         st.success("Login successful!")
-        
+
+if st.button("Signup"):
+    signup()
 
 m.close()
